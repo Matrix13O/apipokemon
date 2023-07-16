@@ -36,4 +36,4 @@ return(
 
 );
 }
-export default Card2;
+export default Card7;

@@ -5,7 +5,7 @@ function Card(props){
 
 const [pokemon,setPokemon]=useState({});
 const [isLoading,setIsLoading]=useState(true);
-    const url='https://pokeapi.co/api/v2/pokemon/257 '
+    const url='https://pokeapi.co/api/v2/pokemon/025'
     const fethApi=async()=>{
         const response=await fetch(url)
         const json=await response.json()
@@ -30,10 +30,10 @@ if(isLoading){
 return(
 <div className='contenedorTexto'>
     <img className='contenedorImagen' src={pokemon.sprites.front_default} alt='imagen'/> 
-    <h5 className='contenedorTitulo'> Blaziken</h5>
-    <p className='contenedorParrafo'>tipo:Fuego,Lucha</p>
+    <h5 className='contenedorTitulo'> Pikachu</h5>
+    <p className='contenedorParrafo'>tipo:Electrico</p>
 </div>
 
 );
 }
-export default Card;
+export default Card2;

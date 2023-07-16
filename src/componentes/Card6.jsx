@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../css/estilos.css'
 
-function Card(props){
+function Card6(props){
 
 const [pokemon,setPokemon]=useState({});
 const [isLoading,setIsLoading]=useState(true);

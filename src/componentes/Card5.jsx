@@ -5,7 +5,7 @@ function Card5(props){
 
 const [pokemon,setPokemon]=useState({});
 const [isLoading,setIsLoading]=useState(true);
-    const url='https://pokeapi.co/api/v2/pokemon/094'
+    const url='https://pokeapi.co/api/v2/pokemon/94'
     const fethApi=async()=>{
         const response=await fetch(url)
         const json=await response.json()
